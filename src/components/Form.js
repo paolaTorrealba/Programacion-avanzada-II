@@ -147,15 +147,16 @@ const Form = ({ crearMascota, modificarMascota, mascotaEdit, setMascotaEdit }) =
 
                 <div className="field is-grouped">
                     <div className="control">
-                        <button
-                            className="button "
-                            type="submit"
-                        >Guardar</button>
-                        <button
+                    <button
                             className="button "
                             type="reset"
                             onClick={handledReset}
                         >Limpiar</button>
+                        <button
+                            className="button "
+                            type="submit"
+                        >Guardar</button>
+                       
                     </div>
                 </div>
             </form>

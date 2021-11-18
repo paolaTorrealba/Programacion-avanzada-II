@@ -31,7 +31,7 @@ const Select = ({name, value, onSelectChange}) => {
     return (
 //le paso los parametros al componenete 
         <select name={name} value={value} onChange={handleChange} >
-            <option value="default" disabled>Seleccioná un tipo</option>
+            <option value="default" disabled>Seleccione..</option>
              {
                  //por cada tipo retorno los datos id, valor y descripcion
                 tipos.map((tipo) => {
